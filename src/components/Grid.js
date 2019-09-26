@@ -1,13 +1,10 @@
 import React from 'react';
-import Layout from './Layout'
 
 export default props => {
   return (
-    <Layout>
-      <div style={styles.grid}>
-        {props.children}
-      </div>
-    </Layout>
+    <div style={styles.grid}>
+      {props.children}
+    </div>
   )
 }
 
